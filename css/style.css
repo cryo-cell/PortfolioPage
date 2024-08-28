@@ -142,7 +142,7 @@ right: -10vh;
 background-color: #e73eaa;
 background-image: url(../components/graffiti_arrows-removebg-preview.png);
 background-position-x: center;
-opacity: 0.6;
+opacity: 0.9;
 color:#3EE77B;
 font-size: 40px;
 width: 30vh;
@@ -156,6 +156,10 @@ border-radius: 15px;
 #mobile-menu-home li{
 padding-bottom: 3vh;
 }
+#mobile-menu-home li:hover{
+    border: dotted 5px #3EE77B;
+    border-radius: 15px;
+    }
 #icychat-preview-home{
     position: fixed;
     bottom: 5vh;
@@ -169,7 +173,7 @@ padding-bottom: 3vh;
     background-color: #282828;
 }
 .toolbar{
-    width: 36vh;
+    width: 40vh;
     height: 7vh;
     margin: auto;
     border: solid 1px darkgrey;
@@ -265,6 +269,9 @@ iframe{
     background-color: #0e0e0e;
     border:none;
 }
+#form-container{
+    display: none;
+}
 #about-container{
     display: flex;
 }
@@ -309,22 +316,33 @@ border-radius: 15px;
     }
     .preview {
         height: 79vh;
-        width: 100%;
+        width: 95%;
         margin-bottom: 30vh;
+        margin-left:auto;
+        margin-right:auto;
+
         text-align: center;
 
     }
     .preview iframe{
-        min-height: 100vh;
+        min-height: 75vh;
         margin: auto;
 
     }
     #icychat-preview-home{
+        top: 0;
+        right: 0;
         text-align: center;
+        margin: auto; 
+
     }
-    #icychat-preview-home iframe{
+    #email-preview-home{
+        top: 0;
+        left: 0;
+    }
+    #icychat-preview-home iframe{   
         text-align: center;
-        width: 91%; 
+        width: 91%;
     }
     .social-nav-wrapper {
         width: 100%;
@@ -359,7 +377,7 @@ border-radius: 15px;
     
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 350px) {
 
     .social-nav-wrapper{
         display: none;

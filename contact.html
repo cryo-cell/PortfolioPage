@@ -83,8 +83,8 @@
             </div>
         </header>
 
-        <main>
             <div class="main-wrapper">
+                <main>
                    <!-- Calendly inline widget begin -->
                    <div id="calendly-embed"></div>
 
@@ -98,36 +98,31 @@
                         var calendlyEmbed = document.getElementById('calendly-embed');
                         calendlyEmbed.setAttribute("style", "max-width:649px;height:960px;background-color:#0e0e0e");
                    </script>
+                   <div id="form-container">
                         <form id="contactForm" action="submit_form.php" method="post">
-                        <div id="nameandphone">
-                            <div id="name" class="input-group">
-                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <div id="nameandphone">
+                                <div id="name" class="input-group">
+                                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div id="phone" class="input-group">
+                                    <input type="phone" id="phone" name="phone" placeholder="Phone" required>
+                                </div>
+                            </div>      
+                            <div id="email" class="input-group">
+                                <input type="email" id="email" name="email" placeholder="Email" required>
                             </div>
-                            <div id="phone" class="input-group">
-                                <input type="phone" id="phone" name="phone" placeholder="Phone" required>
+                            <div id="message" class="input-group">
+                                <textarea id="message" name="message" placeholder="Message"></textarea>
                             </div>
-                        </div>      
-                        <div id="email" class="input-group">
-                            <input type="email" id="email" name="email" placeholder="Email" required>
-                        </div>
-                        <div id="message" class="input-group">
-                            <textarea id="message" name="message" placeholder="Message"></textarea>
-                        </div>
-                        <input type="submit" value="Send">
-                      </form>
-
-                </div>
-         
-                
-                
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </main>
             </div>
-
-
-        </main>
+        
         <footer>
             <small>Copyright © 2024 University of South Florida</small>            
             <p><a href="mailto:vashcarpenter@gmail.com">vashcarpenter@gmail.com</a></p>
-
         </footer>
     </div>
 <script src="./js/index.js"></script>
