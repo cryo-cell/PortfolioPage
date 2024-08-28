@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio for Cryo:Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="icychat-preview-home" class="preview">
+            <div id="icychat-toolbar" class="toolbar">
+                <ul>
+                    <li>
+                        <button id="minChat" class="min">min</button>
+                    </li>
+                    <li>
+                        <button id="maxChat" class="max">max</button>
+                    </li>
+                    <li>
+                        <button id="icychat-toolbar-close">close</button>
+                    </li>
+                </ul>
+            </div>
+            <iframe id="chatFrame" class="navFrame" src="https://puzzling-alive-trade.glitch.me/" width="100%" height="350vh">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+        </div>
+        <div id="email-preview-home" class="preview">
+            <div id="email-toolbar" class="toolbar">
+                <ul>
+                    <li>
+                        <button id="minEmail" class="min">min</button>
+                    </li>
+                    <li>
+                        <button id="maxEmail" class="max">max</button>
+                    </li>
+                    <li>
+                        <button id="email-toolbar-close">close</button>
+                    </li>
+                </ul>
+            </div>
+            <iframe id="emailFrame" class="navFrame" src="./contact.html" width="100%" height="350vh">
+                <p>Your browser does not support iframes.</p>
+            </iframe> 
+        </div>
+        <div id="mobile-menu-home" class="preview">
+            <nav>
+                <ul>
+                        <li>About Me</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-wrapper">
+            <header>
+                <div class="social-nav-wrapper">
+                    <nav>
+                        <ul>
+                            <li><button id="emailToggler">Consult</button></li>
+                            <li ><button id="msgToggler">Message</button></li>
+                            <li><button id="menuToggler" href="contact.html">Menu</button></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="topspace">
+                    <a href="https://www.linkedin.com/in/vashay-carpenter/"><img id="linkedIn-logo" src="./components/iconmonstr-linkedin-2.svg" alt="" target="_blank"></a>
+                    <div id="logo-h1"><h1><a href="index.html">VaShay Carpenter</a></h1></div>
+                    <div class="nav-wrapper">
+                        <nav>
+                            <ul>
+                                <li><a href="./about.html">About Me</a></li>
+                                <li><a href="">Projects</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="main-wrapper">
+            <main>
+                <div id="ad-container">
+                    <div id="intro-container">
+                        <div id="intro-img-container">
+                            <img id="vashSquint" src="./components/chibi-vash-darker.png" alt="This is an image of Vashay squinting. Vash loves to squint.">
+                        </div>
+                        <div id="introduction-container">
+                            <p id="intro"><span class="code">Hello</span>! 
+                            I'm VaSh, a certified Web Development Specialist with a passion for creation and strong desire to excel in the 
+                            <span class="code">World</span> of web development<span id="cursor">|</span> </p>
+                        </div>
+                        <div id="intro-banner-container">
+                            <img id="vash-header" src="./components/vash-header-GREEN.png" alt="">
+                        </div>
+                    </div>
+                    <div class="creds">
+                        <div id="skillSection">
+                            <h2>Skills</h2>
+                            <ul class="skills">
+                                <li><a href="https://www.freecodecamp.org/certification/fcc82f67ee0-4f4d-4264-89b7-4e5a3a7e6d26/javascript-algorithms-and-data-structures">JavaScript</a><span id="cursor2">|</span></li>
+                                <li><em>&lt;HTML&gt;</em></li>
+                                <li id="skillCSS">C<span id="skillCSSS">S</span>S</li>
+                                <li>Node.js</li>
+                                <li><a href="https://www.freecodecamp.org/certification/fcc82f67ee0-4f4d-4264-89b7-4e5a3a7e6d26/responsive-web-design">Responsive Design</a></li>
+
+                            </ul>
+                        </div>
+                        <div id="serviceSection">
+                            <h2>Services</h2>
+                            <ul class="skills">
+                                <li><em>Website Design</em></li>
+                                <li id="skillCSS">Project Concept & Development</li>
+                                <li>Mobile Design</li>
+                                <li>Front End Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="previews">
+                    <div id="mancala-preview-home" class="preview">
+                        <h3>Play Mancala!</h3>
+                        <iframe src="https://cryo-cell.github.io/mancala/" width="100%" height="100%">
+                            <p>Your browser does not support iframes.</p>
+                        </iframe>
+                    </div>
+                    
+                    <div id="tictac-preview-home" class="preview"> 
+                        <h3>TicTacToe w/ Chat!</h3>
+                        <iframe src="https://cryo-tictactoe-server.glitch.me/?" width="100%" height="100%">
+                            <p>Your browser does not support iframes.</p>
+                        </iframe> 
+                    </div>
+                </div>
+            </main>   
+        </div>
+        <footer>
+            <div id="business-card">
+                <img id="logo-img" src="./components/logo.png" alt="This is the logo for VaShay M. Carpenter, a Web Development Specialist">
+            </div>
+                <small>Copyright © 2024 University of South Florida</small>            
+                <p><a href="mailto:vashcarpenter@gmail.com">vashcarpenter@gmail.com</a></p>
+
+        </footer>
+    </div>
+<script src="./js/index.js"></script>
+</body>
+</html>
+        

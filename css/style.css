@@ -1,0 +1,368 @@
+body, html{
+    text-align: center;
+    background-color: #0e0e0e;
+    color: lightgray;
+    width: 98%;
+    margin: auto;
+}
+.container{
+    width: 98%;
+    margin: auto;
+    margin-top: 3vh;    
+}
+#linkedIn-logo{
+    background-color: #3EE77B;
+}
+#linkedIn-logo:hover{
+    background-color: #282828;
+}
+#logo-h1{
+    display: inline-block;
+    width: 30%;
+    }
+h1, h2, h3, h4, h5, h6 {
+    font-family: monospace; 
+    color: #3EE77B;
+}
+.social-nav-wrapper {
+    width: 100%;
+    background-image: url(../components/vash-header-GREEN.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: solid 3px #282828;
+    
+}
+.social-nav-wrapper ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+        
+    
+}
+.topspace{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    height: 5vh;
+    background-color: #282828;
+    color: #3EE77B;
+}
+a{
+    text-decoration: none;
+    color: #3EE77B;
+} 
+.nav-wrapper{
+    min-height: 5vh;
+    width: 100%;
+    display: inline-block;   
+}  
+.nav-wrapper ul{
+    margin-top: 1.5vh;
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    float:right;
+}
+.upper-wrapper{
+    height: 20vh;
+    position: relative;
+    bottom: 1vh;
+}
+li{
+    margin-left: -5vh;  
+    list-style: none;
+}
+h2{
+    display: block;
+    width: 100%;
+    background-color: #282828;
+}
+.previews{
+    margin: auto;
+    min-height: 75vh;
+    display: flex;
+    justify-content: space-between  ;
+    margin-bottom: 10vh;
+}
+.preview{
+    min-width: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 10px;
+
+}
+.input-group{
+    margin-bottom: 1vh
+}
+.email-form{
+    width: 75%;
+    max-width: 600px;
+    margin: auto;
+
+}
+.email-form input, textarea{
+    text-align: center;
+    height: 7vh;
+    min-width: 99%;
+}
+#nameandphone{
+    display: flex;
+    justify-content: space-between;
+}
+#nameandphone input{
+    min-width: 41.8vh;
+}
+#email, #message{
+    text-align: center;
+    width: auto;
+}
+
+
+label{
+    width: 30vh;
+    display: inline-block;
+}
+#mobile-menu-home{
+position: fixed;
+top: 40vh;
+right: -10vh;
+
+}
+#mobile-menu-home nav{
+background-color: #e73eaa;
+background-image: url(../components/graffiti_arrows-removebg-preview.png);
+background-position-x: center;
+opacity: 0.6;
+color:#3EE77B;
+font-size: 40px;
+width: 30vh;
+height: 50vh;
+display: flex;
+justify-content: center;
+padding: 10px;
+border: solid 10px #282828;
+border-radius: 15px;
+}
+#mobile-menu-home li{
+padding-bottom: 3vh;
+}
+#icychat-preview-home{
+    position: fixed;
+    bottom: 5vh;
+    right: -10vh;
+}
+
+#icychat-preview-home iframe{
+    width: inherit;
+}
+.toolbar{
+    background-color: #282828;
+}
+.toolbar{
+    width: 36vh;
+    height: 7vh;
+    margin: auto;
+    border: solid 1px darkgrey;
+
+}
+.toolbar ul{
+    float: right;   
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.toolbar button{
+margin-right: 5vh;
+
+}
+#email-preview-home{
+    position: fixed;
+    bottom: 5vh;
+    left: -10vh;
+}
+#email-preview-home iframe{
+    width: inherit;
+}
+
+#thumbs-container{
+border: solid 1px brown;
+display: none;
+
+}
+
+#vashSquint{
+    border: solid 10px #0e0e0e;
+    border-radius: 15px;
+    height: 20vh;
+}
+
+#vash-header{
+    border: solid 10px #0e0e0e;
+    height: 20vh;
+}
+#intro-container{
+    display: flex;
+    align-items: space-around;
+    font-size: 22px;
+    width: 100%;
+}
+
+.code{
+    font-family: monospace;
+    color: #3EE77B;
+}
+iframe{
+    border: solid 5px #282828;
+}
+.navFrame{
+    border-top: none;
+}
+.toolbar{
+    border: solid 5px #282828;
+    border-bottom: none;
+
+}
+
+.creds{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: xx-large;
+}
+.creds ul{
+    font-size: x-large  ;
+}
+#skillCSSS{
+    color: #3EE77B;
+}
+#summarySection{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: larger;
+}
+#summarySection li{
+    text-align: start;
+    list-style: circle;
+    margin-bottom: 3vh;
+
+}
+#contact-arrow-container{
+    background-color: red;
+}
+#calendly-embed{
+    margin: auto;
+    background-color: #0e0e0e;
+    border:none;
+}
+#about-container{
+    display: flex;
+}
+footer{
+    margin-bottom: 8vh;
+    background-image: url(../components/graffiti_arrows-right-zigzag-green-glitched.png);
+background-position-x: center;
+opacity: 0.6;
+}
+#logo-img{
+border-radius: 15px;
+}
+@media (max-width: 1100px) {
+    #vash-header{
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    body{
+        margin-top: 10vh
+    }
+    h1{
+        margin: auto;
+        width: auto;
+        display: block;
+    }
+    #mobile-menu-home{
+        position: fixed;
+        top: 0vh;
+        left: 40vh;
+        
+        }
+    .nav-wrapper{
+        display: none;
+    }
+    
+    .previews {
+        flex-flow: column;
+        text-align: center;
+        padding: 0;
+    }
+    .preview {
+        height: 79vh;
+        width: 100%;
+        margin-bottom: 30vh;
+        text-align: center;
+
+    }
+    .preview iframe{
+        min-height: 100vh;
+        margin: auto;
+
+    }
+    #icychat-preview-home{
+        text-align: center;
+    }
+    #icychat-preview-home iframe{
+        text-align: center;
+        width: 91%; 
+    }
+    .social-nav-wrapper {
+        width: 100%;
+        height: 7vh;  
+        background-color: #e73eaa;
+        position: fixed;
+        top: 0;
+    }
+    .social-nav-wrapper ul{
+        width: inherit;
+        display: flex;
+        justify-content: space-around;
+        float: none;  
+
+    }
+    
+}
+
+@media (max-width: 530px) {
+.creds{
+    display: flex;
+    flex-flow: column nowrap;
+}
+#intro-container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+#mobile-menu-home{
+    position: fixed;
+    top: 0vh;
+    left: 25vh;
+    
+    }
+}
+@media (max-width: 400px) {
+
+    .social-nav-wrapper{
+        display: none;
+    }
+
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio for Cryo:Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="social-nav-wrapper">
+            <nav>
+                <ul>
+                    <li ><button id="msgToggler">Message</button></li>
+                    <li><button href="contact.html">Menu</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="icychat-preview-home" class="preview">
+            <div id="icychat-toolbar" class="toolbar">
+                <ul>
+                    <li>
+                        <button id="minChat" class="min">min</button>
+                    </li>
+                    <li>
+                        <button id="maxChat" class="max">max</button>
+                    </li>
+                    <li>
+                        <button id="icychat-toolbar-close">close</button>
+                    </li>
+                </ul>
+            </div>
+            <iframe id="chatFrame" class="navFrame" src="https://puzzling-alive-trade.glitch.me/" width="100%" height="350vh">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+        </div>
+        <div id="email-preview-home" class="preview">
+            <div id="email-toolbar" class="toolbar">
+                <ul>
+                    <li>
+                        <button id="minEmail" class="min">min</button>
+                    </li>
+                    <li>
+                        <button id="maxEmail" class="max">max</button>
+                    </li>
+                    <li>
+                        <button id="email-toolbar-close">close</button>
+                    </li>
+                </ul>
+            </div>
+            <iframe id="emailFrame" class="navFrame" src="./contact.html" width="100%" height="350vh">
+                <p>Your browser does not support iframes.</p>
+            </iframe> 
+        </div>
+        <div id="mobile-menu-home" class="preview">
+            <nav>
+                <ul>
+                        <li>About Me</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+        <header>
+            <!--
+            <div class="header-wrapper">
+                <div class="topspace">
+                    <div class="nav-wrapper">
+                    </div>
+                </div>
+            </div>
+            -->
+            <div class="nav-wrapper">
+                
+                <nav>
+                    <h1><a href="index.html">VaShay Carpenter</a></h1>
+                    <ul>
+                        <li><a href="./about.html">About Me</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-wrapper">
+                   <!-- Calendly inline widget begin -->
+                   <div id="calendly-embed"></div>
+
+                   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+                   
+                   <script>
+                        Calendly.initInlineWidget({
+                        url: 'https://calendly.com/vashcarpenter?background_color=0e0e0e&text_color=3ee77b&primary_color=e73eaa',
+                        parentElement: document.getElementById('calendly-embed')
+                        });
+                        var calendlyEmbed = document.getElementById('calendly-embed');
+                        calendlyEmbed.setAttribute("style", "max-width:649px;height:960px;background-color:#0e0e0e");
+                   </script>
+                        <form id="contactForm" action="submit_form.php" method="post">
+                        <div id="nameandphone">
+                            <div id="name" class="input-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div id="phone" class="input-group">
+                                <input type="phone" id="phone" name="phone" placeholder="Phone" required>
+                            </div>
+                        </div>      
+                        <div id="email" class="input-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div id="message" class="input-group">
+                            <textarea id="message" name="message" placeholder="Message"></textarea>
+                        </div>
+                        <input type="submit" value="Send">
+                      </form>
+
+                </div>
+         
+                
+                
+            </div>
+
+
+        </main>
+        <footer>
+            <small>Copyright © 2024 University of South Florida</small>            
+            <p><a href="mailto:vashcarpenter@gmail.com">vashcarpenter@gmail.com</a></p>
+
+        </footer>
+    </div>
+<script src="./js/index.js"></script>
+
+</body>
+</html>
+        
